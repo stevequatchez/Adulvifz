@@ -441,4 +441,4 @@ footer {
 @media (max-width: 680px) {
   body { padding: 1rem; }
   .video-grid { grid-template-columns: 1fr; }
-}
+  }
