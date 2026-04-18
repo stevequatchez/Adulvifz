@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const SUPABASE_URL = 'https://rkqdpmiqdnycafjxxtwu.supabase.co';
   const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJrcWRwbXFpZG55Y2Fmanh4dHd1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY1MTIyMjgsImV4cCI6MjA5MjA4ODIyOH0.G1exf2VXB5bQcbKkIgqvVCwPgUxgeJ7Gp-uqc8Gh6CM';
   const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-  const BUCKET_NAME = 'Videos';
+  const BUCKET_NAME = 'videos';
   const UPLOAD_PASSWORD = 'Kingkuma254.$$';
   
   // AGE GATE ELEMENTS
