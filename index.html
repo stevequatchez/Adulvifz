@@ -37,7 +37,6 @@
     </div>
   </div>
 
-  <!-- HOME VIEW -->
   <div id="homeView" class="view active">
     <div class="disclaimer-banner">
       ⚠️ <strong>Disclaimer:</strong> This website provides explicit educational content about human sexuality, intimacy, and relationship wellness. All videos are intended for adults 18+ in a private, consensual context. Do not share with minors.
@@ -53,7 +52,7 @@
         <div id="uploadStatusMsg" style="font-size:0.85rem; color:#2c5f7a;"></div>
         <div id="freshShareContainer" style="display: none; margin-top: 6px;">
           <div class="link-copy">
-            <span>✨ NEW SHAREABLE LINK</span>
+            <span>✨ NEW SHAREABLE LINK (WORKS FOR ANYONE)</span>
             <input type="text" id="freshShareInput" readonly>
             <button id="copyFreshLinkBtn" class="btn-secondary">📋 Copy</button>
           </div>
@@ -66,7 +65,6 @@
     </div>
   </div>
 
-  <!-- WATCH VIEW -->
   <div id="watchView" class="view">
     <div class="watch-card">
       <div class="back-button">
@@ -85,21 +83,20 @@
         </div>
         <div style="margin-top: 1rem;">
           <div class="link-copy">
-            <span>🔗 Permanent share link (educational purposes only)</span>
+            <span>🔗 Permanent share link (works for anyone)</span>
             <input type="text" id="watchShareLinkInput" readonly>
             <button id="copyWatchLinkButton" class="btn-secondary">Copy link</button>
           </div>
-          <p style="font-size: 0.7rem; margin-top: 12px; color:#4c6a84;">Share only with adults who have consented to receive sexual health education.</p>
+          <p style="font-size: 0.7rem; margin-top: 12px; color:#4c6a84;">Share this link anywhere. Anyone can watch.</p>
         </div>
       </div>
       <div id="watchErrorMsg" style="color:#b91c1c; margin-top: 1rem; display: none;">⚠️ Video not found or removed.</div>
     </div>
   </div>
 
-  <!-- LEGAL PAGES (hidden views) -->
   <div id="aboutView" class="view"><div class="legal-card"><h2>📖 About Us</h2><p>We are a private educational platform dedicated to providing honest, science‑based information about adult intimacy, sexual health, and relationship skills. Our content includes explicit demonstrations and discussions intended for adults in committed relationships or those seeking to improve their personal well‑being.</p><p><strong>Mission:</strong> To reduce shame and misinformation around sexuality by offering high‑quality, respectful educational videos. All material is created with consent, respect, and educational intent.</p><p>This site is not a pornographic platform; it is a sexual health resource. Access is restricted to adults 18+ who agree to our Terms of Use.</p><button class="btn-secondary close-legal">← Back to Library</button></div></div>
   <div id="termsView" class="view"><div class="legal-card"><h2>📜 Terms of Service</h2><p>By using this website, you agree to the following:</p><ul><li>You are at least 18 years old and accessing this content voluntarily.</li><li>All videos are for personal, educational use only – you may not redistribute, sell, or publicly display any content.</li><li>You will not share links with minors or non‑consenting individuals.</li><li>The uploader (site owner) is solely responsible for ensuring that uploaded content is legal and educational.</li><li>We reserve the right to remove any content that violates these terms.</li><li>This service is provided "as is" without warranties; we are not liable for misuse of shared links.</li></ul><button class="btn-secondary close-legal">← Back to Library</button></div></div>
-  <div id="privacyView" class="view"><div class="legal-card"><h2>🔒 Privacy Policy</h2><p>We respect your privacy. This site uses only local storage (IndexedDB) to save videos on your device. No personal data is collected or shared with third parties except for:</p><ul><li>Anonymous analytics (if enabled in future)</li><li>Ad networks you may choose to integrate (you will be informed)</li></ul><p>We do not track your viewing habits. Any links you share are public – share responsibly.</p><button class="btn-secondary close-legal">← Back to Library</button></div></div>
+  <div id="privacyView" class="view"><div class="legal-card"><h2>🔒 Privacy Policy</h2><p>We respect your privacy. This site uses Supabase for cloud storage. No personal data is collected or shared with third parties.</p><p>We do not track your viewing habits. Any links you share are public – share responsibly.</p><button class="btn-secondary close-legal">← Back to Library</button></div></div>
   <div id="termsuseView" class="view"><div class="legal-card"><h2>⚖️ Terms of Use (Acceptable Use)</h2><p>You agree not to:</p><ul><li>Upload illegal content (e.g., non‑consensual, underage, violent, or copyrighted material).</li><li>Use this site to harass, exploit, or harm others.</li><li>Bypass the age‑gate or share access with minors.</li><li>Impersonate another person or entity.</li></ul><p>Violation may result in a permanent ban and legal action where applicable.</p><button class="btn-secondary close-legal">← Back to Library</button></div></div>
 
   <footer>© Intimate Wellness Education – 18+ only. All videos are for educational purposes. By using this site, you confirm your age and acceptance of our legal policies.</footer>
@@ -107,6 +104,7 @@
 
 <div id="toastMessage" class="toast-msg"></div>
 
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="script.js"></script>
 </body>
-</html>
+        </html>
